@@ -19,8 +19,8 @@ const {
 // ⚙️  CONFIG - Lấy từ environment variables
 // ═══════════════════════════════════════════════════════════════
 const TOKEN = process.env.DISCORD_TOKEN;
-const CLIENT_ID = process.env.CLIENT_ID || "1496506636712411146";
-const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID || "1496507451376402532";
+const CLIENT_ID = process.env.CLIENT_ID;
+const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID;
 
 // ALLOWED_USERS có thể là 1 ID hoặc nhiều ID phân cách bằng dấu phẩy
 // Ví dụ: ALLOWED_USERS="123456789,987654321"
